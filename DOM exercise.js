@@ -13,7 +13,5 @@ Wewnątrz pętli wykonaj instrukcję, która wyświetli tekst zawarty w każdym 
 var withButtonItemsClass = document.getElementsByClassName('button');
 
 for (var i=0; i < withButtonItemsClass.length; i++) {
-	console.log(withButtonItemsClass[i].innerText);
+	alert(withButtonItemsClass[i].innerText);
 }
-
-alert(withButtonItemsClass[i]);
